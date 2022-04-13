@@ -1,11 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import Text from "./Text";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Text text="Regular text" />
+    <Text text="Huge header" textSize1="30" />
+    <Text text="Danger notification" textColor="red" />
+    <Text text="Underlined text" textDecoration="true" />
   </React.StrictMode>
 );
