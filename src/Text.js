@@ -1,15 +1,16 @@
 import "./App.css";
 
-function Text({ text, textColor, textSize1, textDecoration }) {
-  if (textDecoration === "true") {
-    textDecoration = "underline";
+function Text({ text, textColor, textSize, textDecoration }) {
+  let decoration = "";
+  if (textDecoration === true) {
+    decoration = "underline";
   } else {
-    textDecoration = "none";
+    decoration = "none";
   }
   const styles = {
-    fontSize: textSize1 + "px",
+    fontSize: textSize + "px",
     color: textColor,
-    textDecoration: textDecoration,
+    textDecoration: decoration,
   };
   return (
     <div className="Text" style={styles}>

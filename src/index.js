@@ -7,8 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Text text="Regular text" />
-    <Text text="Huge header" textSize1="30" />
+    <Text text="Huge header" textSize={30} />
     <Text text="Danger notification" textColor="red" />
-    <Text text="Underlined text" textDecoration="true" />
+    <Text text="Underlined text" textDecoration={true} />
   </React.StrictMode>
 );
