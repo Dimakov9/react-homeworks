@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Text from "./Text";
+import Task from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Text text="Regular text" />
-    <Text text="Huge header" textSize={30} />
-    <Text text="Danger notification" textColor="red" />
-    <Text text="Underlined text" textDecoration={true} />
+    <Task number={1} text="Написать список" done={true} />
+    <Task number={2} text="Зачеркнуть первый вариант" />
+    <Task number={3} text="Сделать вид, что очень занят работой" />
+    <Task number={4} />
+    <Task number={5} text="Придумать интересный пункт 4" />
   </React.StrictMode>
 );
