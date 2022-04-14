@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  margin: 0 50%;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 20px;
+}
+.smallBox {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(218, 106, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mediumBox {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(218, 106, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigBox {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(218, 106, 106);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
