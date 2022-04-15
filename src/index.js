@@ -8,9 +8,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="container">
-      <Box lable="Small box" cssClass="smallBox" />
-      <Box lable="Medium Box" cssClass="mediumBox" />
-      <Box lable="Big box" cssClass="bigBox" />
+      <Box label="Small box" cssClass="smallBox" />
+      <Box label="Medium Box" cssClass="mediumBox" />
+      <Box label="Big box" cssClass="bigBox" />
     </div>
   </React.StrictMode>
 );

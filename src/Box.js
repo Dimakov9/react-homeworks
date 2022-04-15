@@ -1,7 +1,7 @@
 import "./Box.css";
 
-function Box({ lable, cssClass }) {
-  return <div className={cssClass}>{lable}</div>;
+function Box({ label, cssClass }) {
+  return <div className={cssClass}>{label}</div>;
 }
 
 export default Box;
