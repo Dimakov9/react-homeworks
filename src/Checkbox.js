@@ -7,8 +7,9 @@ function Checkbox() {
     <div>
       <button
         onClick={() => {
-          setCheckbox("X");
-          if (checkbox === "X") {
+          if (checkbox === "√") {
+            setCheckbox("X");
+          } else {
             setCheckbox("√");
           }
         }}
