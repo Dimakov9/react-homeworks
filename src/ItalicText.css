@@ -1,0 +1,38 @@
+.normalStyle {
+  font-style: normal;
+}
+
+.italicEnabled {
+  font-style: italic;
+}
+.tooltip {
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgb(219, 208, 208);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  left: 15px;
+
+  transition-property: opacity, visibility;
+  transition-duration: 0.2s;
+  transition-delay: 0.15s;
+}
+
+.btnItalic {
+  position: relative;
+  cursor: pointer;
+}
+.btnItalic:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btnItalicEnabled {
+  background-color: gray;
+  cursor: pointer;
+}
