@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./CatGame.css";
 
 function CatGame() {
   const [rndCol, setRndCol] = useState("rgb(228,30,12)");
@@ -14,32 +15,22 @@ function CatGame() {
   }
 
   const catGameCss = {
-    position: "absolute",
     backgroundColor: rndCol,
-    width: "100px",
-    height: "100px",
-    borderRadius: "100px",
     left: rndPosX + "px",
     top: rndPosY + "px",
-    border: "1px solid black",
   };
-  const container = {
-    margin: "0 auto",
-    position: "relative",
-    width: "1000px",
-    height: "1000px",
-    border: "1px solid black",
-  };
+
   return (
-    <div style={container}>
+    <div className="Container">
       <div
+        className="Circle"
         style={catGameCss}
         onClick={() => {
           setRndCol(
             "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")"
           );
-          setPosX(getRandomInt(900));
-          setPosY(getRandomInt(900));
+          setPosX(getRandomInt(800));
+          setPosY(getRandomInt(800));
         }}
       ></div>
     </div>
