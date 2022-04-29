@@ -8,13 +8,13 @@ import CatGame from "./CatGame";
 import "./index.css";
 import Counter from "./Conter";
 import CounterClass from "./CounterClass";
+import SayHi from "./SayHi";
 
 // import Task from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Counter />
-    <CounterClass />
+    <SayHi />
   </React.StrictMode>
 );
