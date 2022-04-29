@@ -1,0 +1,15 @@
+.Container {
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+}
+
+.Circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: 1px solid black;
+}
