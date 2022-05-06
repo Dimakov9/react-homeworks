@@ -2,7 +2,7 @@ import data from "./data.json";
 import "./UserList.css";
 
 function UserList() {
-  let res = data.map(function (item) {
+  const res = data.map(function (item) {
     return (
       <div className="personsName" key={item._id}>
         <h3>{item.name.first}</h3>
