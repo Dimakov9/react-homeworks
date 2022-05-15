@@ -9,12 +9,13 @@ import "./index.css";
 import Counter from "./Conter";
 import CounterClass from "./CounterClass";
 import SayHi from "./SayHi";
+import UserList from "./UserList";
 
 // import Task from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SayHi />
+    <UserList />
   </React.StrictMode>
 );
