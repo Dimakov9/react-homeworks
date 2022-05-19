@@ -7,7 +7,6 @@ import ItalicText from "./ItalicText";
 import CatGame from "./CatGame";
 import "./index.css";
 import Pizza from "./components/Pizza/index";
-import Checkbox111 from "./components/Pizza/Checkbox111";
 
 // import Task from "./Task";
 
