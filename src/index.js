@@ -6,13 +6,14 @@ import Repeat from "./Repeat";
 import ItalicText from "./ItalicText";
 import CatGame from "./CatGame";
 import "./index.css";
-import PizzaConstructor from "./PizzaConstructor";
+import Pizza from "./components/Pizza/index";
+import Checkbox111 from "./components/Pizza/Checkbox111";
 
 // import Task from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <PizzaConstructor />
+    <Pizza />
   </React.StrictMode>
 );

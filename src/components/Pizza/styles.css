@@ -1,0 +1,31 @@
+.ingredient {
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.Wrapper-ingredient {
+  width: 1620px;
+}
+
+.Wrapper-ingredient_list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.checkbox {
+  border: 3px solid black;
+  width: 15px;
+  height: 15px;
+}
+.selectedtrue {
+  background-color: blue;
+}
+
+.limitWarning {
+  margin-top: 10px;
+  font-size: 20px;
+}
