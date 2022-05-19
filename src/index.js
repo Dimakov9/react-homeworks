@@ -10,12 +10,14 @@ import Counter from "./Conter";
 import CounterClass from "./CounterClass";
 import SayHi from "./SayHi";
 import UserList from "./UserList";
+import PhotoList from "./PhotoList";
 
 // import Task from "./Task";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <UserList />
+    {/* <UserList /> */}
+    <PhotoList />
   </React.StrictMode>
 );

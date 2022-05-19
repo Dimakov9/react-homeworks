@@ -1,0 +1,23 @@
+.PhotoList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+}
+
+.PhotoList__img {
+  width: 200px;
+  height: 200px;
+}
+
+.PhotoList__card {
+  width: 200px;
+  height: 300px;
+}
+
+.btn-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
